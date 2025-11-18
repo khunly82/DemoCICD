@@ -12,4 +12,4 @@ jobs:
           # Username used to log against the Docker registry
           username: khunly1982
           # Password or personal access token used to log against the Docker registry
-          password: mister#K82*
+          password: ${{secrets.DOCKER_PWD}}
