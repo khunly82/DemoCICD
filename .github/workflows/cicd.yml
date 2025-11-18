@@ -10,3 +10,7 @@ jobs:
         run: echo 42
       - name: step 2
         run: ls -l -a
+      - name: step 3
+        uses: actions/checkout@v5
+      - name: step 4
+        run: ls -l -a
