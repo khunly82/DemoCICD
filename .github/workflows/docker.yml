@@ -13,3 +13,10 @@ jobs:
           username: khunly1982
           # Password or personal access token used to log against the Docker registry
           password: ${{secrets.DOCKER_PWD}}
+      - name: Build and push
+        uses: docker/build-push-action@v6.18.0
+        with:
+          context: ./DemoCICD
+          push: true
+          tags: khunly1982/democicd
+        
