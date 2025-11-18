@@ -25,8 +25,24 @@ jobs:
         run: dotnet build -c release
       - name: step 8
         run: dotnet publish -o ./build
-      - name: step 4
+      - name: step 9
         run: ls ./build -l -a
+      - name: step 10
+        uses: actions/upload-artifact@v4
+        with:
+          name: build
+          path: ./build
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step 1
+        uses: actions/upload-artifact@v4
+        with:
+          name: build
+      - name: step 2
+        run: ls -l -a
+        
+        
 
 
 
