@@ -1,0 +1,8 @@
+name: Hello
+
+inputs:
+  name: name
+  required: Khun
+runs:
+  using: node22
+  main: app.js
