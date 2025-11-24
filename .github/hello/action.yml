@@ -2,7 +2,7 @@ name: Hello
 
 inputs:
   name: name
-  required: Khun
+  required: true
 runs:
   using: node22
   main: app.js

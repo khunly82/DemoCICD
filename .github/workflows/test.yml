@@ -6,3 +6,5 @@ jobs:
         steps:
             - name: test1
               uses: khunly82/DemoCICD/hello@v1
+                with:
+                    name: Khun
