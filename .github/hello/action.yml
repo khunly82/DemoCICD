@@ -2,9 +2,8 @@ name: Hello
 description: "Say hello to a user"
 
 inputs:
-  name:
+  nom:
     description: "The name to greet"
-    required: true
 
 runs:
   using: node24

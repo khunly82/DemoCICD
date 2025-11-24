@@ -7,4 +7,4 @@ jobs:
             - name: test1
               uses: khunly82/DemoCICD/.github/hello@v1
               with:
-                  name: Khun
+                nom: khun
