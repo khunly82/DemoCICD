@@ -5,7 +5,7 @@ inputs:
   name:
     description: "The name to greet"
     required: true
-    type: string
+    type: MappingToken
 
 runs:
   using: node22
