@@ -5,6 +5,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: test1
-              uses: khunly82/DemoCICD/.github/hello@v1
+              uses: khunly82/DemoCICD/.github/hello@v2
               with:
                 nom: khun
