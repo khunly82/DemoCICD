@@ -1,8 +1,8 @@
 name: Hello
 
 inputs:
-  name: name
-  required: true
+  - name: name
+    required: true
 runs:
   using: node22
   main: app.js
