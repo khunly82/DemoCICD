@@ -2,6 +2,7 @@ name: Hello
 
 inputs:
   name:
+    description: "va chier !!!!"
     required: true
 runs:
   using: node22
